@@ -16,7 +16,7 @@ class ActiveCampaign
     end
 
     # Set default api_output to json if not set
-    @api_output = 'json' if @api_output.blank?
+    @api_output = 'json' if @api_output.nil?
 
   end
 
